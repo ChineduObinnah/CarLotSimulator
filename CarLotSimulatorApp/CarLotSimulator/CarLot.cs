@@ -19,7 +19,10 @@ namespace CarLotSimulator
             }
         }
 
-
+        public static int _numberOfCars = 0;
+        
+           
+        
     }
 
 

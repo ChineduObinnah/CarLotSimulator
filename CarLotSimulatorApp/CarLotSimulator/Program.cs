@@ -31,6 +31,8 @@ namespace CarLotSimulator
             mustang.HonkNoise = "Honk Honk";
             mustang.IsDriveable = true;
 
+            Console.WriteLine($" The number of cars at this point {CarLot._numberOfCars}");
+
             carLot.ParkingLot.Add(mustang);
 
             var honda = new Car()
@@ -43,6 +45,8 @@ namespace CarLotSimulator
                 IsDriveable = true
 
             };
+             Console.WriteLine($" The number of cars at this point {CarLot._numberOfCars}");
+
             carLot.ParkingLot.Add(honda);
             var corolla = new Car()
             {
@@ -54,6 +58,8 @@ namespace CarLotSimulator
                 IsDriveable = false
 
             };
+
+           Console.WriteLine($" The number of cars at this point {CarLot._numberOfCars}");
             carLot.ParkingLot.Add(corolla);
             carLot.CheckCars();
         }
